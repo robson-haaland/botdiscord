@@ -6,6 +6,7 @@
     background: #2F3136;
     margin-left: 18.75rem;
     margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
 }
 
 .titulo{
@@ -26,9 +27,57 @@
 
 body{
     background-color: black;
+    
+   
 }
 
-.status{
-    background-image: url(img/Ellipse.svg);
-   
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    column-gap: 15px;
+}
+
+.imagem-perfil{
+ background-image:  url(img/Rectangle\ 1.svg);
+ background-repeat: no-repeat;
+ width: 303px;
+ height: 388px;
+ border-radius: 30px;
+ padding-right: 80px;
+}
+
+
+.nickname{
+    color: #DEDCDC;
+    font-family: 'Whitney', sans-serif;
+    font-size: 15px;
+    font-weight: 700; 
+    margin-left: 25px;
+}
+
+.subtitulo{
+    color: #FFFF;
+    font-family: 'Whitney', sans-serif;
+    font-size: 5px;
+    font-weight: 700; 
+}
+
+.icons{
+    border-radius:40px;
+    background: rgba(32, 34, 37, 0.39);
+    width: 530px;
+    height: 35px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.figuras{
+    width: 18px;
+    height: 20px;
+    justify-content: space-between;
+    
 }
