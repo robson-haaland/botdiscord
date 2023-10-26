@@ -54,30 +54,29 @@ body{
 .nickname{
     color: #DEDCDC;
     font-family: 'Whitney', sans-serif;
+    text-align: center;
     font-size: 15px;
     font-weight: 700; 
-    margin-left: 25px;
 }
 
-.subtitulo{
+.badges{
     color: #FFFF;
     font-family: 'Whitney', sans-serif;
     font-size: 5px;
     font-weight: 700; 
+    padding: 15px;
 }
 
-.icons{
-    border-radius:40px;
-    background: rgba(32, 34, 37, 0.39);
-    width: 530px;
-    height: 35px;
-    flex-shrink: 0;
-    align-items: center;
+
+.rectangle10 img{
+
 }
 
-.figuras{
-    width: 18px;
-    height: 20px;
-    justify-content: space-between;
-    
-}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  
